@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CalculatorsPaycheckcity" >
+    <test name="FireFox" >
+        <groups>
+            <run>
+                <include name="regression"/>
+                <include name="p1"/>
+                <exclude name="p2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="CalculatorsPaycheckcity"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="TestListener"/>
+    </listeners>
+</suite>
