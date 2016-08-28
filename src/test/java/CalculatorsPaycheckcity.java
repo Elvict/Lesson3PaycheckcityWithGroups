@@ -89,8 +89,6 @@ public class CalculatorsPaycheckcity {
         assertEquals(actualResultHourly, expectedResultHourly);
 
     }
-
-
     @AfterSuite(groups = "p1",alwaysRun = true)
     public void tearDown() throws Exception {
         driver.quit();
